@@ -121,6 +121,13 @@ body {
 
 /*Responsive Styles*/
 
+@media (max-width: 600px) {
+	.footer-nav ul {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+}
+
 @media (max-width: 500px)  {
 	.title {
 		font-size: 2rem;
@@ -154,10 +161,6 @@ body {
 		flex-direction: column;
 	}
 
-	.footer-nav ul {
-		flex-wrap: wrap;
-		justify-content: center;
-	}
 	.icon-section {
 		justify-content: center;
 	}
