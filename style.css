@@ -26,6 +26,11 @@ body {
 }
 
 .main-header {
+	width: 85vw;
+	margin: 0 auto;
+}
+
+.main-header {
 	height: 140px;
 }
 
@@ -109,6 +114,7 @@ body {
 	font-weight: bold;
 }
 
+
 .socail-link img {
 	width: 1em;
 	margin-right: 0.25rem;
@@ -121,10 +127,20 @@ body {
 
 /*Responsive Styles*/
 
-@media (max-width: 600px) {
+@media (max-width: 550px) {
+	.footer-nav a {
+		padding-bottom: 0;
+	}
+}
+
+@media (max-width: 650px) {
 	.footer-nav ul {
 		flex-wrap: wrap;
 		justify-content: center;
+	}
+
+	.container {
+		padding: 0;
 	}
 }
 

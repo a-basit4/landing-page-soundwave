@@ -3,16 +3,17 @@
 	justify-content: space-between;
 	align-items: center;
 	flex-grow: 1;
+	width: 85vw;
 }
 
 .discover-main-section .covers-image {
-	width: 25vw;
-	max-width: 337px;
+	/*width: 25vw;*/
+	max-width: 320px;
 }
 
 .call-to-action {
-	min-width: 55vw;
-	margin-right: 2rem;
+	/*width: 40vw;*/
+	/*margin-right: 2rem;*/
 }
 
 .icon-section {
