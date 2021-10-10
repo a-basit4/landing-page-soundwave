@@ -71,7 +71,9 @@ body {
 
 /*Home Main Section*/
 /*Shared Style On All Pages*/
-
+.home-main-section {
+	background-color: red;
+}
 .title {
 	font-weight: 500;
 	font-size: 3em;
